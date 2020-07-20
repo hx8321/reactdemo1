@@ -1,0 +1,7 @@
+.content{
+    height: 500px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    /* border: 1px solid #F2F8FF; */
+}

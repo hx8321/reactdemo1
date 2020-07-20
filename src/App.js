@@ -1,13 +1,15 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import { Button } from 'antd';
+import { Button,Divider } from 'antd';
+import HOC from './page/HOC'
 
 function App() {
   return (
     <div className="App">
-        hx
-        <Button type="primary">Button</Button>
+        <Divider />
+        <HOC></HOC>
+        <Divider />
     </div>
   );
 }
